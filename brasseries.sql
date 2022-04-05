@@ -1,6 +1,6 @@
-CREATE DATABASE salimox;
+CREATE DATABASE projet3;
 
-USE salimox;
+USE projet3;
 
 
 CREATE TABLE brasseries (
