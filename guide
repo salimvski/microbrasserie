@@ -1,0 +1,45 @@
+1er partie
+
+- Faire les 2 tables de projet3 DONE
+- heberger sur diro TODO
+
+
+2eme partie
+
+- GET <micro>/names retourne une structure json avec tous les noms
+
+requete AJAX , lit la database SELECT name from microbrasserie; -> transformer en objet JSON et lafficher sur la page
+
+- GET <micro>/names/<prefix> retourne une structure json avec
+tous les noms qui commencent par le préfixe <prefix>, IL FAUT FAIRE UN TRIE
+
+- GET <micro>/permis/<permis> retourne sous forme json toutes
+les informations correspondant à l’item dont le numéro de permis
+est celui spécifié (<permis>).
+
+
+POST <micro>/add qui permet d’ajouter une entrée dans la table
+brasseries dont les valeurs sont passée dans le corps de la requête.
+Vous prendrez soin d’expliquer la syntaxe du corps de la requête.
+
+- IL FAUT LIRE LA DATABASE, AJOUTER UNE ENTREE.
+
+- ROUTAGE PHP DONE
+
+
+
+
+3eme partie
+
+
+- path/login (MARIE-CHRISTINE)
+
+page PERSONALLISE POUR CHAQUE USER AVEC MENU PERSONALLISE NAV
+
+- path/table (SALIM)
+
+
+- path/add (SALIM)
+- path/delete (SALIM)
+- path/plot (A LA FIN)
+- path/doc (FACILE)

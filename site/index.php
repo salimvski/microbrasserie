@@ -2,11 +2,12 @@
 
  <!DOCTYPE html>
 <html>
-<header>
+<head>
+    <title>Accueil</title>
     
-<meta name="description" content="Free Web tutorials for HTML and CSS">
 
-</header>
+
+</head>
 <body>
 
 <h1>My First Heading</h1>
