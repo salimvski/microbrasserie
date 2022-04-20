@@ -6,15 +6,15 @@
 
 2eme partie
 
-- GET <micro>/names retourne une structure json avec tous les noms
+- GET <micro>/names retourne une structure json avec tous les noms DONE
 
 requete AJAX , lit la database SELECT name from microbrasserie; -> transformer en objet JSON et lafficher sur la page
 
 - GET <micro>/names/<prefix> retourne une structure json avec
-tous les noms qui commencent par le préfixe <prefix>, IL FAUT FAIRE UN TRIE
+tous les noms qui commencent par le préfixe <prefix>, IL FAUT FAIRE UN TRIE DONE
 
 - GET <micro>/permis/<permis> retourne sous forme json toutes
-les informations correspondant à l’item dont le numéro de permis
+les informations correspondant à l’item dont le numéro de permis DONE
 est celui spécifié (<permis>).
 
 
@@ -36,10 +36,17 @@ Vous prendrez soin d’expliquer la syntaxe du corps de la requête.
 
 page PERSONALLISE POUR CHAQUE USER AVEC MENU PERSONALLISE NAV
 
-- path/table (SALIM)
+- path/table (SALIM) DONNE MANQUE QUE SOUS TABLE
 
 
 - path/add (SALIM)
 - path/delete (SALIM)
 - path/plot (A LA FIN)
 - path/doc (FACILE)
+
+
+path en question : 
+
+- /microbrasserie/rest-api/permis/$prefix
+- /microbrasserie/rest-api/names/$prefix
+- /microbrasserie/rest-api/names
