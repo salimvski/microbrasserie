@@ -8,19 +8,23 @@
 
 - GET <micro>/names retourne une structure json avec tous les noms DONE
 
-requete AJAX , lit la database SELECT name from microbrasserie; -> transformer en objet JSON et lafficher sur la page
+requete AJAX , lit la database SELECT name from microbrasserie; -> transformer en objet JSON et lafficher sur la page DONE
 
 - GET <micro>/names/<prefix> retourne une structure json avec
 tous les noms qui commencent par le préfixe <prefix>, IL FAUT FAIRE UN TRIE DONE
+DONE
 
 - GET <micro>/permis/<permis> retourne sous forme json toutes
 les informations correspondant à l’item dont le numéro de permis DONE
 est celui spécifié (<permis>).
+DONE
 
 
 POST <micro>/add qui permet d’ajouter une entrée dans la table
 brasseries dont les valeurs sont passée dans le corps de la requête.
 Vous prendrez soin d’expliquer la syntaxe du corps de la requête.
+
+DONE
 
 - IL FAUT LIRE LA DATABASE, AJOUTER UNE ENTREE.
 

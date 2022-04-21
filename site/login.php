@@ -1,16 +1,31 @@
- <!DOCTYPE html>
+<?php
+
+ 
+// Check if the user is already logged in, if yes then redirect him to welcome page
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    header("location: welcome.php");
+    exit;
+}
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
-    <title>login</title>
-    
-
-
+    <title> Login microbrasserie</title>
+    <link rel="stylesheet" a href="site/css/login.css">
 </head>
 <body>
-
-<h1>My First Heading</h1>
-<?php echo "hi"; ?>
-<p>My first paragraph.</p>
-
+    <div class="container">
+        <form action="verif" method="get" enctype="multipart/form-data">
+            <div class="form-input">
+                <input type="text" id="username" name="username" placeholder="Enter the User Name"/>  
+            </div>
+            <div class="form-input">
+                <input type="password" id="password" name="password" placeholder="password"/>
+            </div>
+            <input type="submit" type="submit" value="Login" class="btn-login"/>
+        </form>
+    </div>
 </body>
-</html> 
+</html>
