@@ -1,8 +1,8 @@
 -- Database creation
-CREATE DATABASE IF NOT EXISTS projet3;
+CREATE DATABASE IF NOT EXISTS elrhilas_projet3;
 
 -- Table : account
-CREATE TABLE IF NOT EXISTS projet3 . account (
+CREATE TABLE IF NOT EXISTS elrhilas_projet3 . account (
 	username VARCHAR(100) NOT NULL,
 	pass VARCHAR(100) NOT NULL
 	);

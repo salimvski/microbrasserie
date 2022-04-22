@@ -28,7 +28,7 @@ $cp = $params['cp'];
 $permis = $params['permis'];
 $courriel = $params['mail'];
 
-// sql query
+// sql query test
 $path = 'api-rest/add?nom=DELICEduMAGREB&adresse=Barcklay&ville=montreal&cp=H3G1C2&permis=AB105&mail=salim.elrhilani@gmail.com';
 
 $sql = "INSERT INTO microbrasseries (Nom_raison_sociale, Adresse, Ville, Code_Postal, Permis, Courriel)

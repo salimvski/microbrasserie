@@ -24,11 +24,6 @@ echo "
 <td>$cp</td>
 <td>$permis</td>
 <td>$courriel</td>
-            <td class='first'>$nom</td>
-            <td class='second'>$annee</td>
-            <td class='third'>$web</td>
-            <td class='fourth'>$courriel</td>
-            <td class='fifth'>$latitude/$longitude</td>
 </tr>
 ";
 

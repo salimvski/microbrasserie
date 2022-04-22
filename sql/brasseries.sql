@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS projet3;
+CREATE DATABASE IF NOT EXISTS elrhilas_projet3;
 
-CREATE TABLE IF NOT EXISTS projet3 . microbrasseries (
+CREATE TABLE IF NOT EXISTS elrhilas_projet3 . microbrasseries (
     `Nom_raison_sociale` VARCHAR(48),
     `Appellation_légale` VARCHAR(65),
     `Autre_appellation` VARCHAR(40),
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS projet3 . microbrasseries (
     `Autre` VARCHAR(106),
     `Notes` VARCHAR(40)
 );
-INSERT INTO projet3 . microbrasseries VALUES
+INSERT INTO elrhilas_projet3 . microbrasseries VALUES
     ('LE CHEVAL BLANC','9068-8912 QUÉBEC INC.',NULL,'809, RUE ONTARIO EST','MONTRÉAL','H2L 1P1','Québec','Canada',45.51821,-73.56428,6,'AB001',NULL,'Producteur artisanal de bière',1,'1987','http://www.lechevalblanc.ca/','fmartel@lechevalblanc.ca','514-522-0211','https://www.facebook.com/Le-Cheval-Blanc-104725816258577','http://www.ratebeer.com/brewers/le-cheval-blanc/1111/','https://untappd.com/LeChevalBlancCo','X','X','?','?','https://www.instagram.com/chevalblancmtl/','?','?',NULL,NULL),
     ('L''INOX','NOUVEAUX BRASSEURS ASSOCIES INC.',NULL,'655, GRANDE-ALLÉE EST','QUÉBEC','G1R 2K4','Québec','Canada',46.80645,-71.21599,3,'AB002',NULL,'Producteur artisanal de bière',1,'1987','http://www.inox.qc.ca/','inox@inox.qc.ca','418-692-2877','https://www.facebook.com/barlinox','http://www.ratebeer.com/brewers/linox-maitres-brasseurs/1110/','https://untappd.com/w/l-inox-ma-tres-brasseurs/17654','https://www.aumenu.info/inox/','X','?','?','https://www.instagram.com/barinoxqc/','?','?',NULL,NULL),
     ('MICROBRASSERIE LA DIABLE','MICROBRASSERIE LA DIABLE INC.',NULL,'117, CHEMIN KANDAHAR, C.P. 2669, SUCC.B','MONT-TREMBLANT','J8E 1B1','Québec','Canada',46.20976,-74.58566,15,'AB009',NULL,'Producteur artisanal de bière',0,'1997','http://www.microladiable.com/','?','819-681-4546','https://www.facebook.com/ladiablemicro','http://www.ratebeer.com/brewers/microbrasserie-la-diable/1452/','https://untappd.com/w/microbrasserie-la-diable/40267','X','X','?','?','X','?','?',NULL,NULL),

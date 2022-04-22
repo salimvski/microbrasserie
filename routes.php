@@ -18,3 +18,7 @@ get('/microbrasserie/verif', '/microbrasserie/site/verif.php');
 get('/microbrasserie/welcome', '/microbrasserie/site/welcome.php');
 get('/microbrasserie/plot', '/microbrasserie/site/map_view.php');
 get('/microbrasserie/micro', '/microbrasserie/microbrasseries.csv');
+get('/microbrasserie/addVerif', '/microbrasserie/site/addVerif.php');
+get('/microbrasserie/deleteVerif', '/microbrasserie/site/deleteVerif.php');
+get('/microbrasserie/menu', '/microbrasserie/site/menu.php');
+get('/microbrasserie/logout', '/microbrasserie/site/logout.php');

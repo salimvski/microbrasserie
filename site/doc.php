@@ -73,10 +73,14 @@ service REST disponible ainsi que les routes de l’application client
 une application en une page).</td>
     </tr>
     <tr>
-      <th scope="row">7</th>
-      <td>/microbrasserie/rest-api/names/{prefix}</td>
-      <td>etourne une structure json avec
-tous les noms qui commencent par le préfixe {prefix}</td>
+      <th scope="row">11</th>
+      <td>/microbrasserie/add</td>
+      <td>page permettant d'ajouter une entree a la table des brasseries, en remplissant le formulaire</td>
+    </tr>
+    <tr>
+      <th scope="row">12</th>
+      <td>/microbrasserie/delete</td>
+      <td>page permettant de supprimer une entree a la table des brasseries, en remplissant le formulaire</td>
     </tr>
   </tbody>
 </table>

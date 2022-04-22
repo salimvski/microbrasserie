@@ -29,11 +29,6 @@
             <th>CP</th>
             <th>Permis</th>
             <th>Courriel</th>
-            <th>Appellation</th>
-            <th>Creation</th>
-            <th>Web</th>
-            <th>Courriel</th>
-            <th>Latitude/Longitude</th>
         </tr>
     </thead>
     <tbody>
