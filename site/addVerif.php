@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
     $permis=$_GET['permis'];
     $courriel=$_GET['email'];
 
-    $result = mysqli_query($conn, "SELECT * FROM microbrasserie where Nom_raison_sociale='$nom' AND Adresse='$adr' AND Ville='$ville' AND Code_Postal='$cp' AND Permis='$permis' AND Courriel='$courriel'");
+    $result = mysqli_query($conn, "SELECT * FROM microbrasserie WHERE Nom_raison_sociale='$nom' AND Adresse='$adr' AND Ville='$ville' AND Code_Postal='$cp' AND Permis='$permis' AND Courriel='$courriel'");
 
 
     $sql = "INSERT INTO microbrasseries (Nom_raison_sociale, Adresse, Ville, Code_Postal, Permis, Courriel)

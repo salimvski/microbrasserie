@@ -44,7 +44,7 @@
         <div class="input-icon"><i class="fa fa-envelope"></i></div>
       </div>
 
-      <button type="button">Supprimer de la liste des microbrasseries</button>
+      <button type="submit">Supprimer de la liste des microbrasseries</button>
     
     </div>
 </body>
