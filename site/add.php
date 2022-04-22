@@ -2,9 +2,7 @@
 <!DOCTYPE html>
 <html>
 <style>
-    form {
     
-    }
 </style>
 <head>
     <title>add</title>

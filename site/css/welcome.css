@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    padding: 1em;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #b9b9b9;
+    background-color: #e3e3e3;
+  }
+  h1 {
+    color: darkslategrey;
+    font-size: 50px;
+  }
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  #table:hover {
+    background-color: yellow; /* Green */
+    color: white;
+  }
+  #add:hover {
+    background-color: green; /* Green */
+    color: white;
+  }
+  #delete:hover {
+    background-color: red; /* Green */
+    color: white;
+  }
+  #table {
+    margin: auto;
+      width: 20%;
+      background-color:lightgray;
+      border: 2px solid black;
+      font-size: 25px;
+      
+      
+      
+  }
+  #add {
+    margin: auto;
+  width: 20%;
+  background-color: lightgray;
+  border: 2px solid black;
+  font-size: 25px;
+  
+  
+}
+#delete {
+    margin: auto;
+    
+  width: 20%;
+  background-color: lightgray;
+  border: 2px solid black;
+  font-size: 25px;
+  
+  
+}
