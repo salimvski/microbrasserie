@@ -43,8 +43,9 @@ $(document).ready( function () {
          $.ajax({
     type: "GET",
     dataType: "text",
-    url: '/microbrasserie/back',
+    url: './backend-script.php',
     success: function (data) {
+    	console.log(data);
         $('#my-data').html(data);
 
     }

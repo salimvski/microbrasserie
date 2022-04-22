@@ -3,7 +3,7 @@
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: welcome");
+    header("location: ./welcome.php");
     exit;
 }
 
@@ -13,11 +13,11 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 <html>
 <head>
     <title> Login microbrasserie</title>
-    <link rel="stylesheet" a href="site/css/login.css">
+    <link rel="stylesheet" a href="./css/login.css">
 </head>
 <body>
     <div class="container">
-        <form action="verif" method="get" enctype="multipart/form-data">
+        <form action="./verif.php" method="get" enctype="multipart/form-data">
             <div class="form-input">
                 <input type="text" id="username" name="username" placeholder="Enter the User Name"/>  
             </div>

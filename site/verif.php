@@ -18,7 +18,7 @@ include("database.php");
         $_SESSION['user'] = $uname;
         $_SESSION["loggedin"] = true;
         // Redirect user to welcome page
-        header("location: welcome");
+        header("location: ./welcome.php");
         exit();
     }
     else{

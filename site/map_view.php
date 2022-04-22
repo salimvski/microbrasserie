@@ -30,7 +30,7 @@ read:
           left: 40
     };
 
-    d3.csv("micro").then(
+    d3.csv("../microbrasseries.csv").then(
         function(data) { 
 
            var data = data.map( function(d) { 

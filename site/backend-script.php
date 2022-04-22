@@ -1,6 +1,6 @@
 <?php
 
-include("database.php");
+include("./database.php");
 $res = mysqli_query($conn, "SELECT Nom_raison_sociale,Adresse,Ville,Code_Postal,Permis,Courriel,Année_fondation,Site_Web,Latitude,Longitude from microbrasseries");
 
 while ( $range = mysqli_fetch_assoc ( $res) ) {
