@@ -13,20 +13,20 @@
 <body>
 
 <div class="container">
-  <form action="addVerif" method="get" enctype="multipart/form-data">
+  <form action="deleteVerif" method="get" enctype="multipart/form-data">
       <h1>Suppression d'une microbrasserie</h1>
     <div class="row">
       <h4>Information sur la microbrasserie</h4>
       <div class="input-group input-group-icon">
-        <input type="text" placeholder="Nom de la microbrasserie"/>
+        <input type="text" name="name" placeholder="Nom de la microbrasserie"/>
         <div class="input-icon"><i class="fa fa-user"></i></div>
       </div>
       <div class="input-group input-group-icon">
-        <input type="text" placeholder="Adresse"/>
+        <input type="text" name="address" placeholder="Adresse"/>
         <div class="input-icon"><i class="fa fa-address-card"></i></div>
 
         <div class="input-group input-group-icon">
-        <input type="text" placeholder="Ville"/>
+        <input type="text" name="city" placeholder="Ville"/>
         <div class="input-icon"><i class="fa fa-address-card"></i></div>
 
         <div class="input-group input-group-icon">
@@ -36,11 +36,11 @@
       </div>
       </div>
       <div class="input-group input-group-icon">
-        <input type="text" placeholder="#Permis"/>
+        <input type="text" name="pc" placeholder="#Permis"/>
         <div class="input-icon"><i class="fa fa-ticket"></i></div>
       </div>
       <div class="input-group input-group-icon">
-        <input type="email" placeholder="Email Adress"/>
+        <input type="email" name="email" placeholder="Email Adress"/>
         <div class="input-icon"><i class="fa fa-envelope"></i></div>
       </div>
 

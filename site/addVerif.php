@@ -3,7 +3,7 @@
 
 include("database.php");
 
-if(isset($_POST['submit'])){
+if(isset($_GET['submit'])){
     //execute mysql query
     }
 
@@ -13,8 +13,6 @@ if(isset($_POST['submit'])){
     $cp=$_GET['pc'];
     $permis=$_GET['permis'];
     $courriel=$_GET['email'];
-
-    $result = mysqli_query($conn, "SELECT * FROM microbrasserie WHERE Nom_raison_sociale='$nom' AND Adresse='$adr' AND Ville='$ville' AND Code_Postal='$cp' AND Permis='$permis' AND Courriel='$courriel'");
 
 
     $sql = "INSERT INTO microbrasseries (Nom_raison_sociale, Adresse, Ville, Code_Postal, Permis, Courriel)

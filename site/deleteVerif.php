@@ -3,7 +3,7 @@
 
 include("database.php");
 
-if(isset($_POST['submit'])){
+if(isset($_GET['submit'])){
     //execute mysql query
     }
 
@@ -16,8 +16,8 @@ if(isset($_POST['submit'])){
 
 
 
-    $sql = "DELETE FROM microbrasseries (Nom_raison_sociale, Adresse, Ville, Code_Postal, Permis, Courriel)
-    WHERE ('Nom_raison_sociale = $nom' AND Adresse = '$adr' AND Ville = '$ville' AND Code_Postal = '$cp'AND Permis = '$permis'AND Courriel = '$courriel')";
+    $sql = "DELETE FROM microbrasseries
+    WHERE Nom_raison_sociale = '$nom' AND Adresse = '$adr' AND Ville = '$ville' AND Code_Postal = '$cp' AND Permis = '$permis' AND Courriel = '$courriel'";
     
     if (mysqli_query($conn, $sql)) {
       echo "Record deleted successfully";
