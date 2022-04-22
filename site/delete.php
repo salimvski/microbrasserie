@@ -13,7 +13,7 @@
 <body>
 
 <div class="container">
-  <form>
+  <form action="addVerif" method="get" enctype="multipart/form-data">
       <h1>Suppression d'une microbrasserie</h1>
     <div class="row">
       <h4>Information sur la microbrasserie</h4>

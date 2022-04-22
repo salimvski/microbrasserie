@@ -7,6 +7,7 @@ include("database.php");
     $password=$_GET['password'];
 
 
+
     $result = mysqli_query($conn, "SELECT * FROM account where username='$uname' and pass='$password'");
     
     if(mysqli_num_rows($result) == 1){
