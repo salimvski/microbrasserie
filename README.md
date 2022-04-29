@@ -16,7 +16,7 @@ HOW TO USE :
 I- DATABASE
 - Run the script sql/account.sql and sql/microbrasserie.sql on your MYSQL
 - Load microbrasseries.csv on your MYSQL.
-- Make sure to modify the database's name, for this project the default name is 'projet3'
+- Make sure to modify the database's name.
 
 II- SET UP THE CONNECTION TO THE DATABASE
 - Open database.php
