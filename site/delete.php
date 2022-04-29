@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <?php ?>
 <div class="container">
   <form action="deleteVerif" method="get" enctype="multipart/form-data">
       <h1>Suppression d'une microbrasserie</h1>
