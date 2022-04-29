@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<?php ?>
  <div class="input-group input-group-icon" id="add">
         <a class= "button" href="add">Ajouter à la liste des microbrasseries</a>
       </div>
