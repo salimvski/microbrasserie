@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 
 volumes:
   datafiles:
@@ -27,6 +27,7 @@ services:
       #- MYSQL_DBNAME=
     ports:
       - 8080:80
-      - 8083:443
+    volumes:
+    - .:/var/www/html/microbrasserie
     depends_on:
       - mysql
