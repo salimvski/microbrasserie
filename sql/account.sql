@@ -8,8 +8,8 @@ CREATE TABLE IF NOT EXISTS elrhilas_projet3 . account (
 	);
 
 
-INSERT INTO projet3 . account(username, pass)
+INSERT INTO elrhilas_projet3 . account(username, pass)
 VALUES ('ift3225','sésame');
 
-INSERT INTO projet3 . account(username, pass)
+INSERT INTO elrhilas_projet3 . account(username, pass)
 VALUES ('admin','ouvre-toi');
